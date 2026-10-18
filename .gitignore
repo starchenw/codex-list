@@ -1,0 +1,27 @@
+# System files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Dependencies and caches
+node_modules/
+.cache/
+
+# Local environment
+.env
+.env.*
+
+# Generated screenshots and QA previews
+/previews/
+/preview*.png
+
+# Unused candidate images (kept locally)
+/assets/archive/
+
+# Logs
+*.log

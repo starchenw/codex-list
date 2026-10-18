@@ -1,0 +1,715 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171512">
+  <meta name="description" content="叙野 XUYE，一间以时令、炭火与东方风味为灵感的现代中餐厅。查看菜单、空间并在线订座。">
+  <title>叙野 XUYE｜山野入席，四季有味</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至主要内容</a>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="#home" aria-label="叙野首页">
+      <span class="brand-seal" aria-hidden="true">叙</span>
+      <span class="brand-word">
+        <strong>叙野</strong>
+        <small>XUYE</small>
+      </span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="主导航">
+      <a href="#signatures">招牌风味</a>
+      <a href="#menu">时令菜单</a>
+      <a href="#story">主厨故事</a>
+      <a href="#space">空间</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="phone-link" href="tel:+862162881018">
+        <span>订座热线</span>
+        021 6288 1018
+      </a>
+      <button class="button button--outline button--small" type="button" data-open-reservation>
+        预订餐桌
+        <span aria-hidden="true">↗</span>
+      </button>
+    </div>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle>
+      <span class="sr-only">打开菜单</span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" data-mobile-menu aria-hidden="true">
+    <nav aria-label="移动端导航">
+      <a href="#signatures"><span>01</span>招牌风味</a>
+      <a href="#menu"><span>02</span>时令菜单</a>
+      <a href="#story"><span>03</span>主厨故事</a>
+      <a href="#space"><span>04</span>空间</a>
+      <a href="#reserve"><span>05</span>联系与订座</a>
+    </nav>
+    <div class="mobile-menu-footer">
+      <a href="tel:+862162881018">021 6288 1018</a>
+      <p>上海市静安区巨鹿路 758 号<br>每日 11:30–22:30</p>
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-media">
+        <img src="assets/hero.jpg" alt="叙野餐厅深色木质与黄铜交织的用餐空间" data-parallax>
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-grain" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <p class="eyebrow eyebrow--light reveal">Contemporary Chinese · Shanghai</p>
+        <h1 id="hero-title" class="reveal">
+          <span>山野入席</span>
+          <span class="hero-title-second">四季有味</span>
+        </h1>
+        <p class="hero-copy reveal">
+          以炭火唤醒食材本味，以东方香料勾勒记忆。<br>
+          在城市的慢处，认真吃一顿饭。
+        </p>
+        <div class="hero-actions reveal">
+          <button class="button button--light" type="button" data-open-reservation>
+            预订餐桌
+            <span aria-hidden="true">↗</span>
+          </button>
+          <a class="text-link text-link--light" href="#menu">
+            探索本季菜单
+            <span aria-hidden="true">↓</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-side-note" aria-hidden="true">
+        <span>AUTUMN</span>
+        <span class="hero-side-line"></span>
+        <span>VOL. 08</span>
+      </div>
+
+      <div class="hero-bottom">
+        <div class="hero-location">
+          <span class="status-dot"></span>
+          <span>今日营业 · 17:30 起</span>
+        </div>
+        <p>上海 · 静安<br>巨鹿路 758 号</p>
+        <a class="scroll-cue" href="#intro" aria-label="向下滚动">
+          <span>SCROLL</span>
+          <i aria-hidden="true"></i>
+        </a>
+      </div>
+    </section>
+
+    <section class="intro section-pad" id="intro" aria-labelledby="intro-title">
+      <div class="intro-top reveal">
+        <p class="eyebrow">Our Table · 叙野</p>
+        <p class="intro-index">01 / 06</p>
+      </div>
+
+      <div class="intro-layout">
+        <div class="intro-heading reveal">
+          <h2 id="intro-title">一席一味，<br>皆有时令。</h2>
+          <span class="vertical-stamp" aria-hidden="true">旬<br>味</span>
+        </div>
+        <div class="intro-copy reveal">
+          <p class="lead">我们把山川、田野与海风的馈赠，做成一张不断变化的餐桌。</p>
+          <p>叙野是一间当代中餐厅。厨房里没有复杂的炫技，只有对火候、时间和食材的耐心。菜单随二十四节气更迭，每一道菜都保留熟悉的中国味道，也带着一点新鲜的惊喜。</p>
+          <a class="text-link" href="#story">认识我们的厨房 <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+
+      <div class="intro-facts reveal" aria-label="餐厅信息">
+        <div>
+          <strong>2018</strong>
+          <span>始于上海</span>
+        </div>
+        <div>
+          <strong>24</strong>
+          <span>席次，安静而松弛</span>
+        </div>
+        <div>
+          <strong>12</strong>
+          <span>道时令赏味菜单</span>
+        </div>
+        <div>
+          <strong>6h</strong>
+          <span>每日现熬高汤</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="signatures section-pad" id="signatures" aria-labelledby="signatures-title">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">Chef's Selection</p>
+          <h2 id="signatures-title">这一季，<br>值得专程而来。</h2>
+        </div>
+        <p class="section-heading-note">从炭火到蒸笼，从山野到海面。<br>四道风味，是叙野最直接的自我介绍。</p>
+      </div>
+
+      <div class="signature-grid">
+        <article class="dish-card dish-card--wide reveal">
+          <a class="dish-image" href="#menu" aria-label="查看炭火慢烤肋排">
+            <img src="assets/dish-steak.jpg" alt="炭火慢烤肋排配番茄与渍菜" loading="lazy">
+            <span class="dish-number">01</span>
+            <span class="dish-badge">本季招牌</span>
+          </a>
+          <div class="dish-info">
+            <div>
+              <p class="dish-kicker">Charcoal · 炭火</p>
+              <h3>炭火慢烤肋排</h3>
+            </div>
+            <p>十二小时低温慢煮，荔枝木烟熏，配山胡椒与炙烤番茄。</p>
+            <span class="dish-price">￥168</span>
+          </div>
+        </article>
+
+        <article class="dish-card dish-card--tall reveal">
+          <a class="dish-image" href="#menu" aria-label="查看松露小笼包">
+            <img src="assets/dish-dimsum.jpg" alt="竹蒸笼里冒着热气的松露小笼包" loading="lazy">
+            <span class="dish-number">02</span>
+          </a>
+          <div class="dish-info">
+            <div>
+              <p class="dish-kicker">Steam · 蒸</p>
+              <h3>松露小笼包</h3>
+            </div>
+            <p>每日现包，薄皮兜住一汪鲜汤。黑松露、猪肉与鸡清汤。</p>
+            <span class="dish-price">￥78</span>
+          </div>
+        </article>
+
+        <article class="dish-card dish-card--small reveal">
+          <a class="dish-image" href="#menu" aria-label="查看鲜虾高汤面">
+            <img src="assets/dish-noodles.jpg" alt="鲜虾高汤面配溏心蛋与豌豆尖" loading="lazy">
+            <span class="dish-number">03</span>
+          </a>
+          <div class="dish-info">
+            <div>
+              <p class="dish-kicker">Broth · 高汤</p>
+              <h3>鲜虾高汤面</h3>
+            </div>
+            <p>虾头慢煸出油，六小时高汤与手工细面，鲜得干净。</p>
+            <span class="dish-price">￥72</span>
+          </div>
+        </article>
+
+        <article class="dish-card dish-card--small reveal">
+          <a class="dish-image" href="#menu" aria-label="查看炭烤时蔬">
+            <img src="assets/dish-bowl.jpg" alt="炭烤时蔬与谷物饭，配番茄和香草" loading="lazy">
+            <span class="dish-number">04</span>
+          </a>
+          <div class="dish-info">
+            <div>
+              <p class="dish-kicker">Garden · 田园</p>
+              <h3>炭烤时蔬谷物饭</h3>
+            </div>
+            <p>当季蔬菜、香草与糙米，以柠檬和烘烤坚果提亮风味。</p>
+            <span class="dish-price">￥58</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="menu-section" id="menu" aria-labelledby="menu-title">
+      <div class="menu-inner section-pad">
+        <div class="menu-header reveal">
+          <div>
+            <p class="eyebrow eyebrow--light">Autumn Menu · 2026</p>
+            <h2 id="menu-title">秋日菜单</h2>
+          </div>
+          <p>应季而食，是我们与时间相处的方式。<br>部分菜品会随当日食材微调。</p>
+        </div>
+
+        <div class="menu-tabs reveal" role="tablist" aria-label="菜单分类">
+          <button type="button" role="tab" id="tab-starters" aria-selected="true" aria-controls="panel-starters" data-menu-tab>前菜</button>
+          <button type="button" role="tab" id="tab-fire" aria-selected="false" aria-controls="panel-fire" data-menu-tab tabindex="-1">炭火</button>
+          <button type="button" role="tab" id="tab-staples" aria-selected="false" aria-controls="panel-staples" data-menu-tab tabindex="-1">主食</button>
+          <button type="button" role="tab" id="tab-sweets" aria-selected="false" aria-controls="panel-sweets" data-menu-tab tabindex="-1">甜品</button>
+        </div>
+
+        <div class="menu-panels reveal">
+          <div class="menu-panel is-active" id="panel-starters" role="tabpanel" aria-labelledby="tab-starters" data-menu-panel>
+            <article class="menu-item">
+              <span class="menu-item-no">01</span>
+              <div>
+                <h3>炭焙茄子 <small>Charred Eggplant</small></h3>
+                <p>山椒酸奶 · 烤芝麻 · 紫苏</p>
+              </div>
+              <span class="menu-dots" aria-hidden="true"></span>
+              <span class="menu-price">￥48</span>
+            </article>
+            <article class="menu-item">
+              <span class="menu-item-no">02</span>
+              <div>
+                <h3>花雕醉鲍鱼 <small>Shaoxing Abalone</small></h3>
+                <p>十年花雕 · 陈皮 · 话梅</p>
+              </div>
+              <span class="menu-dots" aria-hidden="true"></span>
+              <span class="menu-price">￥88</span>
+            </article>
+            <article class="menu-item">
+              <span class="menu-item-no">03</span>
+              <div>
+                <h3>时蔬手卷 <small>Garden Roll</small></h3>
+                <p>当季鲜蔬 · 柚皮 · 芝麻酱</p>
+              </div>
+              <span class="menu-dots" aria-hidden="true"></span>
+              <span class="menu-price">￥42</span>
+            </article>
+            <article class="menu-item">
+              <span class="menu-item-no">04</span>
+              <div>
+                <h3>烟熏鸭胸 <small>Smoked Duck</small></h3>
+                <p>龙眼木 · 洛神花 · 脆藜麦</p>
+              </div>
+              <span class="menu-dots" aria-hidden="true"></span>
+              <span class="menu-price">￥68</span>
+            </article>
+          </div>
+
+          <div class="menu-panel" id="panel-fire" role="tabpanel" aria-labelledby="tab-fire" data-menu-panel hidden>
+            <article class="menu-item">
+              <span class="menu-item-no">05</span>
+              <div>
+                <h3>炭火慢烤肋排 <small>Charcoal Ribs</small></h3>
+                <p>荔枝木 · 山胡椒 · 炙烤番茄</p>
+              </div>
+              <span class="menu-dots" aria-hidden="true"></span>
+              <span class="menu-price">￥168</span>
+            </article>
+            <article class="menu-item">
+              <span class="menu-item-no">06</span>
+              <div>
+                <h3>炭烤鲈鱼 <small>Grilled Sea Bass</small></h3>
+                <p>青柠 · 香茅 · 发酵辣椒</p>
+              </div>
+              <span class="menu-dots" aria-hidden="true"></span>
+              <span class="menu-price">￥138</span>
+            </article>
+            <article class="menu-item">
+              <span class="menu-item-no">07</span>
+              <div>
+                <h3>松露小笼包 <small>Truffle Xiaolong</small></h3>
+                <p>黑松露 · 猪肉 · 鸡清汤</p>
+              </div>
+              <span class="menu-dots" aria-hidden="true"></span>
+              <span class="menu-price">￥78</span>
+            </article>
+            <article class="menu-item">
+              <span class="menu-item-no">08</span>
+              <div>
+                <h3>明火烤时蔬 <small>Ember Vegetables</small></h3>
+                <p>秋葵 · 玉米笋 · 发酵豆酱</p>
+              </div>
+              <span class="menu-dots" aria-hidden="true"></span>
+              <span class="menu-price">￥58</span>
+            </article>
+          </div>
+
+          <div class="menu-panel" id="panel-staples" role="tabpanel" aria-labelledby="tab-staples" data-menu-panel hidden>
+            <article class="menu-item">
+              <span class="menu-item-no">09</span>
+              <div>
+                <h3>鲜虾高汤面 <small>Prawn Noodles</small></h3>
+                <p>虾头油 · 手工细面 · 溏心蛋</p>
+              </div>
+              <span class="menu-dots" aria-hidden="true"></span>
+              <span class="menu-price">￥72</span>
+            </article>
+            <article class="menu-item">
+              <span class="menu-item-no">10</span>
+              <div>
+                <h3>野菌煲仔饭 <small>Mushroom Claypot</small></h3>
+                <p>牛肝菌 · 广式腊肠 · 锅巴</p>
+              </div>
+              <span class="menu-dots" aria-hidden="true"></span>
+              <span class="menu-price">￥68</span>
+            </article>
+            <article class="menu-item">
+              <span class="menu-item-no">11</span>
+              <div>
+                <h3>葱油流心蛋拌面 <small>Scallion Noodles</small></h3>
+                <p>焦香葱油 · 烤海苔 · 温泉蛋</p>
+              </div>
+              <span class="menu-dots" aria-hidden="true"></span>
+              <span class="menu-price">￥56</span>
+            </article>
+            <article class="menu-item">
+              <span class="menu-item-no">12</span>
+              <div>
+                <h3>蟹粉豆腐饭 <small>Crab Tofu Rice</small></h3>
+                <p>手拆蟹粉 · 嫩豆腐 · 姜醋</p>
+              </div>
+              <span class="menu-dots" aria-hidden="true"></span>
+              <span class="menu-price">￥88</span>
+            </article>
+          </div>
+
+          <div class="menu-panel" id="panel-sweets" role="tabpanel" aria-labelledby="tab-sweets" data-menu-panel hidden>
+            <article class="menu-item">
+              <span class="menu-item-no">13</span>
+              <div>
+                <h3>桂花酒酿布丁 <small>Osmanthus Pudding</small></h3>
+                <p>酒酿 · 桂花蜜 · 米香脆片</p>
+              </div>
+              <span class="menu-dots" aria-hidden="true"></span>
+              <span class="menu-price">￥38</span>
+            </article>
+            <article class="menu-item">
+              <span class="menu-item-no">14</span>
+              <div>
+                <h3>黑糖豆乳冰淇淋 <small>Brown Sugar Soy</small></h3>
+                <p>黑糖 · 豆乳 · 焙茶脆</p>
+              </div>
+              <span class="menu-dots" aria-hidden="true"></span>
+              <span class="menu-price">￥36</span>
+            </article>
+            <article class="menu-item">
+              <span class="menu-item-no">15</span>
+              <div>
+                <h3>桂花乌龙冻 <small>Oolong Jelly</small></h3>
+                <p>冷萃乌龙 · 桂花 · 梨</p>
+              </div>
+              <span class="menu-dots" aria-hidden="true"></span>
+              <span class="menu-price">￥32</span>
+            </article>
+            <article class="menu-item">
+              <span class="menu-item-no">16</span>
+              <div>
+                <h3>山楂巧克力 <small>Hawthorn Chocolate</small></h3>
+                <p>山楂 · 70% 黑巧 · 海盐</p>
+              </div>
+              <span class="menu-dots" aria-hidden="true"></span>
+              <span class="menu-price">￥42</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="menu-footer reveal">
+          <p>另提供 12 道主厨赏味菜单 · ￥688 / 位<br>如有食物过敏或特殊饮食需求，请在订座时告知我们。</p>
+          <button class="button button--light" type="button" data-open-reservation>
+            预订这一席
+            <span aria-hidden="true">↗</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="story section-pad" id="story" aria-labelledby="story-title">
+      <div class="story-visual reveal">
+        <figure class="story-image story-image--main">
+          <img src="assets/chef-portrait.jpg" alt="叙野主厨在餐厅内准备当日食材" loading="lazy">
+          <figcaption>主厨 · 林岳</figcaption>
+        </figure>
+        <figure class="story-image story-image--detail">
+          <img src="assets/ingredients.jpg" alt="砧板上摆放的新鲜蔬菜、香草与鸡蛋" loading="lazy">
+        </figure>
+        <span class="story-caption" aria-hidden="true">FIRE / SEASON / MEMORY</span>
+      </div>
+
+      <div class="story-copy reveal">
+        <p class="eyebrow">From Our Kitchen</p>
+        <h2 id="story-title">火候，是厨房里最诚实的语言。</h2>
+        <blockquote>
+          “小时候，外婆总说，一锅饭香不香，听声音就知道。现在我也用耳朵做菜。”
+        </blockquote>
+        <p>主厨林岳在江南长大，先后在上海与东京的厨房工作。他习惯每天清晨去市场，依照当天最好的食材调整菜单。叙野没有固定的“招牌配方”，只有对季节的尊重。</p>
+        <p>从发酵、风干到炭烤，每一种古老的处理方式，都被重新放进当代的餐桌语境。熟悉，但不重复；克制，却有力量。</p>
+        <div class="chef-signature">
+          <span class="signature-name">林岳</span>
+          <span>创始人 · 主厨</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="space" id="space" aria-labelledby="space-title">
+      <div class="space-heading section-pad reveal">
+        <div>
+          <p class="eyebrow">The Space</p>
+          <h2 id="space-title">留一点时间，<br>给不着急的晚餐。</h2>
+        </div>
+        <p>深色木、温润黄铜与手工宣纸。<br>24 个座位，一段刚刚好的距离。</p>
+      </div>
+
+      <div class="gallery">
+        <button class="gallery-item gallery-item--large reveal" type="button" data-lightbox="assets/space-c.jpg" aria-label="查看用餐大厅大图">
+          <img src="assets/space-c.jpg" alt="叙野温暖的用餐大厅，红砖与黄铜灯具相映" loading="lazy">
+          <span class="gallery-label">大厅 · Main Dining</span>
+          <span class="gallery-expand" aria-hidden="true">↗</span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-lightbox="assets/tea.jpg" aria-label="查看茶席细节大图">
+          <img src="assets/tea.jpg" alt="木质茶盘上的青瓷茶壶与茶杯" loading="lazy">
+          <span class="gallery-label">茶席 · Tea Pairing</span>
+          <span class="gallery-expand" aria-hidden="true">↗</span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-lightbox="assets/feast.jpg" aria-label="查看炭火料理大图">
+          <img src="assets/feast.jpg" alt="多道炭火料理与新鲜香草铺满餐桌" loading="lazy">
+          <span class="gallery-label">炭火料理 · Ember</span>
+          <span class="gallery-expand" aria-hidden="true">↗</span>
+        </button>
+      </div>
+
+      <div class="space-marquee" aria-hidden="true">
+        <div>
+          <span>SEASONAL</span><i></i><span>CHARCOAL</span><i></i><span>LOCAL</span><i></i>
+          <span>SEASONAL</span><i></i><span>CHARCOAL</span><i></i><span>LOCAL</span><i></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-section" aria-label="食客评价">
+      <div class="quote-mark" aria-hidden="true">“</div>
+      <blockquote class="reveal">
+        像回家吃饭，<br>又比家多了些惊喜。
+      </blockquote>
+      <div class="quote-meta reveal">
+        <span>—— 食客手记</span>
+        <span>2026 · 秋</span>
+      </div>
+    </section>
+
+    <section class="reserve-section" id="reserve" aria-labelledby="reserve-title">
+      <div class="reserve-image reveal">
+        <img src="assets/space-b.jpg" alt="叙野明亮雅致的用餐空间" loading="lazy">
+        <div class="reserve-image-copy">
+          <p class="eyebrow eyebrow--light">Your Table Awaits</p>
+          <p>今晚，<br>把时间留给好好吃饭。</p>
+        </div>
+      </div>
+
+      <div class="reserve-panel reveal">
+        <div class="reserve-heading">
+          <p class="eyebrow">Reservation</p>
+          <h2 id="reserve-title">订一座，<br>候你一席。</h2>
+        </div>
+
+        <form class="reservation-form" data-reservation-form novalidate>
+          <div class="field-row">
+            <label class="field">
+              <span>姓名</span>
+              <input type="text" name="name" autocomplete="name" placeholder="怎么称呼您" required>
+            </label>
+            <label class="field">
+              <span>手机号码</span>
+              <input type="tel" name="phone" autocomplete="tel" placeholder="用于接收确认信息" pattern="[0-9+\-\s]{8,20}" required>
+            </label>
+          </div>
+          <div class="field-row">
+            <label class="field">
+              <span>日期</span>
+              <input type="date" name="date" required data-date-input>
+            </label>
+            <label class="field">
+              <span>时间</span>
+              <select name="time" required>
+                <option value="">选择时间</option>
+                <option>11:30</option>
+                <option>12:00</option>
+                <option>12:30</option>
+                <option>17:30</option>
+                <option>18:00</option>
+                <option>18:30</option>
+                <option>19:00</option>
+                <option>19:30</option>
+                <option>20:00</option>
+                <option>20:30</option>
+              </select>
+            </label>
+          </div>
+          <div class="field-row">
+            <label class="field">
+              <span>用餐人数</span>
+              <select name="guests" required>
+                <option value="">选择人数</option>
+                <option>1 位</option>
+                <option>2 位</option>
+                <option>3 位</option>
+                <option>4 位</option>
+                <option>5 位</option>
+                <option>6 位</option>
+                <option>7–10 位</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>特别说明 <em>选填</em></span>
+              <input type="text" name="note" placeholder="纪念日、过敏信息等">
+            </label>
+          </div>
+          <label class="checkbox">
+            <input type="checkbox" name="consent" required>
+            <span>我同意餐厅通过电话或短信联系我确认订座。</span>
+          </label>
+          <button class="button button--dark button--full" type="submit">
+            提交订座申请
+            <span aria-hidden="true">↗</span>
+          </button>
+          <p class="form-note">提交后，我们会在 30 分钟内致电确认。营业时间外提交的申请将在次日回复。</p>
+        </form>
+
+        <div class="reservation-success" data-reservation-success hidden>
+          <span class="success-mark" aria-hidden="true">叙</span>
+          <p class="eyebrow">Request Received</p>
+          <h3>订座申请已收到</h3>
+          <p data-success-copy>我们会尽快与您电话确认。</p>
+          <button class="text-link" type="button" data-reset-reservation>再订一桌 <span aria-hidden="true">→</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-heading reveal">
+        <p class="eyebrow">Find Us</p>
+        <h2 id="contact-title">在巨鹿路的梧桐树下，<br>为你留一盏灯。</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-block reveal">
+          <span>地址</span>
+          <p>上海市静安区巨鹿路 758 号<br>一层庭院内</p>
+          <a href="https://maps.google.com/?q=Shanghai+Julu+Road+758" target="_blank" rel="noreferrer">打开地图 <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="contact-block reveal">
+          <span>营业时间</span>
+          <p>周二至周日<br>午餐 11:30–14:30<br>晚餐 17:30–22:30</p>
+          <small>周一店休 · 法定节假日另行通知</small>
+        </div>
+        <div class="contact-block reveal">
+          <span>联系</span>
+          <p><a href="tel:+862162881018">021 6288 1018</a><br><a href="mailto:hello@xuye.example">hello@xuye.example</a></p>
+          <small>8 人以上聚会，请提前 3 天致电</small>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top">
+      <a class="brand brand--footer" href="#home" aria-label="返回叙野首页">
+        <span class="brand-seal" aria-hidden="true">叙</span>
+        <span class="brand-word">
+          <strong>叙野</strong>
+          <small>XUYE</small>
+        </span>
+      </a>
+      <p>山野入席，四季有味。</p>
+      <div class="footer-socials">
+        <a href="#" aria-label="小红书">小红书</a>
+        <a href="#" aria-label="微信公众号">微信</a>
+        <a href="#" aria-label="Instagram">Instagram</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 XUYE 叙野 · Shanghai</span>
+      <span>本页面为概念餐厅设计示例</span>
+      <a href="#home">回到顶部 ↑</a>
+    </div>
+  </footer>
+
+  <dialog class="reservation-dialog" data-reservation-dialog aria-labelledby="dialog-title">
+    <div class="dialog-inner">
+      <button class="dialog-close" type="button" data-close-dialog aria-label="关闭订座窗口">×</button>
+      <div class="dialog-aside">
+        <p class="eyebrow eyebrow--light">Reservation</p>
+        <h2 id="dialog-title">留一席，<br>等你来。</h2>
+        <p>午市 11:30–14:30<br>晚市 17:30–22:30</p>
+        <span class="dialog-stamp" aria-hidden="true">叙野</span>
+      </div>
+      <div class="dialog-form-wrap">
+        <div class="dialog-mobile-head">
+          <p class="eyebrow">Reservation</p>
+          <h2>预订餐桌</h2>
+        </div>
+        <form class="reservation-form" data-dialog-form novalidate>
+          <div class="field-row">
+            <label class="field">
+              <span>姓名</span>
+              <input type="text" name="name" autocomplete="name" placeholder="怎么称呼您" required>
+            </label>
+            <label class="field">
+              <span>手机号码</span>
+              <input type="tel" name="phone" autocomplete="tel" placeholder="用于接收确认信息" pattern="[0-9+\-\s]{8,20}" required>
+            </label>
+          </div>
+          <div class="field-row">
+            <label class="field">
+              <span>日期</span>
+              <input type="date" name="date" required data-date-input>
+            </label>
+            <label class="field">
+              <span>时间</span>
+              <select name="time" required>
+                <option value="">选择时间</option>
+                <option>11:30</option>
+                <option>12:00</option>
+                <option>12:30</option>
+                <option>17:30</option>
+                <option>18:00</option>
+                <option>18:30</option>
+                <option>19:00</option>
+                <option>19:30</option>
+                <option>20:00</option>
+                <option>20:30</option>
+              </select>
+            </label>
+          </div>
+          <div class="field-row">
+            <label class="field">
+              <span>用餐人数</span>
+              <select name="guests" required>
+                <option value="">选择人数</option>
+                <option>1 位</option>
+                <option>2 位</option>
+                <option>3 位</option>
+                <option>4 位</option>
+                <option>5 位</option>
+                <option>6 位</option>
+                <option>7–10 位</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>特别说明 <em>选填</em></span>
+              <input type="text" name="note" placeholder="纪念日、过敏信息等">
+            </label>
+          </div>
+          <label class="checkbox">
+            <input type="checkbox" name="consent" required>
+            <span>我同意餐厅通过电话或短信联系我确认订座。</span>
+          </label>
+          <button class="button button--dark button--full" type="submit">
+            提交订座申请
+            <span aria-hidden="true">↗</span>
+          </button>
+          <p class="form-note">演示页面：提交后将显示订座确认效果。</p>
+        </form>
+        <div class="reservation-success" data-dialog-success hidden>
+          <span class="success-mark" aria-hidden="true">叙</span>
+          <p class="eyebrow">Request Received</p>
+          <h3>订座申请已收到</h3>
+          <p data-dialog-success-copy>我们会尽快与您电话确认。</p>
+          <button class="text-link" type="button" data-reset-dialog>继续预订 <span aria-hidden="true">→</span></button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="lightbox" data-lightbox-dialog aria-label="图片预览">
+    <button class="lightbox-close" type="button" data-close-lightbox aria-label="关闭图片预览">×</button>
+    <img src="assets/interior.jpg" alt="" data-lightbox-image>
+  </dialog>
+
+  <div class="toast" role="status" aria-live="polite" data-toast></div>
+</body>
+</html>
